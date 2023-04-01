@@ -1,11 +1,11 @@
 body {
-  background-color: #e6dfd0;
+  background-color: #b1ab9d;
   font-family: 'Montserrat', sans-serif;
 }
 
 #header {
   border-bottom: solid 5px;
-  
+  background-color: #e6dfd0;
 }
 
 #header-col {
