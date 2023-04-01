@@ -4,9 +4,7 @@ body {
 }
 
 #header {
-  background: url(happy\ cat.png), no-repeat center center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  border-bottom: solid 5px;
   
 }
 
@@ -15,4 +13,9 @@ body {
     border:solid 4px;
     border-radius: 4rem;
     background-color: #bcd1a3;
+}
+
+.header-img {
+  width: 100%;
+
 }
