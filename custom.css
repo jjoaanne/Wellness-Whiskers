@@ -17,5 +17,8 @@ body {
 
 .header-img {
   width: 100%;
+}
 
+.header-text {
+  font-size: 3rem;
 }
