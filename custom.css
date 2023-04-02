@@ -22,3 +22,8 @@ body {
 .header-text {
   font-size: 3rem;
 }
+
+.emotion-selection {
+  width: 300px;
+  height: 300px;
+}
