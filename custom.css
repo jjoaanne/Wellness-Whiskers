@@ -1,29 +1,33 @@
 body {
   background-color: #b1ab9d;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#header {
-  border-bottom: solid 5px;
-  background-color: #e6dfd0;
-}
-
-#header-col {
-    font-size: 5rem;
-    border:solid 4px;
-    border-radius: 4rem;
-    background-color: #bcd1a3;
-}
-
-.header-img {
-  width: 100%;
 }
 
 .header-text {
   font-size: 3rem;
 }
 
-.emotion-selection {
+.mood-selection {
   width: 300px;
   height: 300px;
+}
+
+.reason-button {
+  text-align: center;
+  width: 12rem;
+  height: 3rem;
+}
+
+.img-radio { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.img-radio + img {
+  cursor: pointer;
+}
+
+.img-radio:checked + img {
+  outline: 5px solid;
 }
