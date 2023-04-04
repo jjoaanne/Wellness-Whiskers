@@ -2,7 +2,11 @@ body {
   background-color: #b1ab9d;
 }
 
-.header-text {
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
   font-size: 3rem;
 }
 
@@ -30,4 +34,8 @@ body {
 
 .img-radio:checked + img {
   outline: 5px solid;
+}
+
+label{
+  font-size: 2rem;
 }
