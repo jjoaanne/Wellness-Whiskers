@@ -8,12 +8,11 @@ var reason = [
     'Remember that you can you can always talk to your boss or co-workers, stay punctual, organized, communicate well, and take care of yourself!',
 ]
 
-function handleClick() {
+function submitClicked() {
     const radioButtons1 = document.querySelectorAll('input[name="mood-selection"]');
     var selectedValue;
     const radioButtons2 = document.querySelectorAll('input[name="reason-selection"]');
     var selectedValue2;
-
     for (const rb of radioButtons1) {
         if (rb.checked) {
             selectedValue = rb.value;
@@ -26,7 +25,6 @@ function handleClick() {
             break;
         }
     }
-
     if (selectedValue && selectedValue2) {
         document.getElementById('response').innerHTML = mood[selectedValue] + " " + reason[selectedValue2];
     }
@@ -40,12 +38,9 @@ function handleClick() {
         alert("Please Select a Reason!");
     }
 }
-
-function clearPressed() {
+function clearClicked() {
     const radioButtons = document.querySelectorAll('input[type="radio"]');
-
     document.getElementById('response').innerText = "";
-
     for (let i = 0; i < radioButtons.length; i++) {
         radioButtons[i].checked = false;
     }
