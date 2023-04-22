@@ -1,8 +1,6 @@
-var mood = [
+var response = [
     'YAY! It is great that you are feeling happy!',
     'Keep thinking postively and everything will be okay!',
-]
-var reason = [
     'Remember that communication and honesty is key! If problems occur, try to communicate and compromise so that the both of you could agree on something.',
     'Remember to a postive mindset and take care of yourself mentaly and physically! You can always talk to your teachers, create schedules, and study with friends.',
     'Remember that you can you can always talk to your boss or co-workers, stay punctual, organized, communicate well, and take care of yourself!',
@@ -26,7 +24,7 @@ function submitClicked() {
         }
     }
     if (selectedValue && selectedValue2) {
-        document.getElementById('response').innerHTML = mood[selectedValue] + " " + reason[selectedValue2];
+        document.getElementById('response').innerHTML = response[selectedValue] + ' ' + response[selectedValue2];
     }
     else if (selectedValue === undefined && selectedValue2 === undefined) {
         document.getElementById('response').innerText = "Please Select a Mood and Reason!";
