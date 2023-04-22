@@ -42,5 +42,11 @@ function handleClick() {
 }
 
 function clearPressed() {
+    const radioButtons = document.querySelectorAll('input[type="radio"]');
+
     document.getElementById('response').innerText = "";
+
+    for (let i = 0; i < radioButtons.length; i++) {
+        radioButtons[i].checked = false;
+    }
 }
