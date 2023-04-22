@@ -5,8 +5,8 @@ var mood = [
 
 var reasons = [
     'Remember that communication and honesty is key! If problems occur, try to communicate and compromise so that the both of you could agree on something.', 
-    'Remember that you can talk to your teachers, create a schedule, study with friends and most of all, have a postive mindset and take care of yourself mentaly and physically!', 
-    'Remember that you can you can talk to your boss or co-workers, stay punctual, organized, communicate well, and take care of yourself!',
+    'Remember that you can always talk to your teachers, create a schedule, study with friends and most of all, have a postive mindset and take care of yourself mentaly and physically!', 
+    'Remember that you can you can always talk to your boss or co-workers, stay punctual, organized, communicate well, and take care of yourself!',
 ]
 
 function handleClick() {
