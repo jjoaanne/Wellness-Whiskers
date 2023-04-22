@@ -29,13 +29,13 @@ function submitClicked() {
         document.getElementById('response').innerHTML = mood[selectedValue] + " " + reason[selectedValue2];
     }
     else if (selectedValue === undefined && selectedValue2 === undefined) {
-        alert("Please Select a Mood and Reason!");
+        document.getElementById('response').innerText = "Please Select a Mood and Reason!";
     }
     else if (selectedValue === undefined) {
-        alert("Please Select a Mood!");
+        document.getElementById('response').innerText = "Please Select a Mood!";
     }
     else if (selectedValue2 === undefined) {
-        alert("Please Select a Reason!");
+        document.getElementById('response').innerText = "Please Select a Reason!";
     }
 }
 function clearClicked() {
